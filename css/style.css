@@ -1,0 +1,184 @@
+/* CSS Document */
+
+body {
+  font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  margin: 0 0 35px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+h6 {
+	color: black;
+}
+
+.white-section {
+	padding-bottom: 25px;
+}
+
+.white-section h1{
+	color:black;
+}
+
+.white-section h5 {
+	color: black;
+	padding-top: 13%;
+}
+
+.black-section {
+	background-color: black;
+	padding-bottom: 25px;
+}
+
+.black-section h1{
+	color: white;
+}
+
+.black-section h5 {
+	color: white;
+	padding-top: 13%;
+}
+
+.container, h4{
+	padding-top: 25px;
+	color: black;
+}
+
+	/* Nav Bar CSS */
+
+	#mainNav {
+	  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	    margin-bottom: 0;
+	    text-transform: uppercase;
+	    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	    background-color: black;
+		Z-index: 2;
+	}
+
+	#mainNav .navbar-toggler {
+	  font-size: 14px;
+	  padding: 11px;
+	  color: white;
+	  border: 1px solid white;
+	}
+
+	#mainNav .navbar-brand {
+	  font-weight: 700;
+	}
+
+	#mainNav a {
+	  color: white;
+	}
+
+	#myVideo {
+	position: relative;
+	background: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: 100%;
+	Z-index: -2;
+	}
+
+	.brand-heading {
+		font-size: 80px;
+	}
+
+	.content {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	Z-index: -1;
+	width: 100%;
+	text-align: center;
+	padding: 20%;
+}
+
+
+
+.resortinfo-section {
+  color: white;
+  background: url("../images/rersorts-background.jpg") no-repeat center center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	padding-bottom: 25px;
+}
+
+
+
+.jumbotron {
+	background: black;
+	color: white;
+}
+
+.jumbotron p {
+	color: white
+}
+
+.display-3 {
+	color: white;
+}
+
+@media (max-width: 768px) {
+	
+		.brand-heading {
+		font-size: 50px;
+	}
+	
+	.content {
+		padding: 20%;
+	}
+	
+	span.nobr { 
+	white-space: nowrap; 
+}
+	#telluride h5 {
+	padding-top: 5%;
+}
+}
+
+
+@media (max-width: 577px) {
+	
+	.brand-heading {
+		font-size: 30px;
+	}
+	
+	.content {
+		padding: 35%;
+	}
+	
+	.intro-text {
+		visibility: hidden;
+	}
+	
+	span.nobr { 
+	white-space: pre-wrap; 
+}
+	
+}
+
+#contact {
+	padding: 70px 0;
+    padding: 10px;
+	text-align: center;
+}
+
+
+footer {
+	background-color: black;
+	padding: 50px 0;
+}
+
+footer p {
+	color: white;
+}
